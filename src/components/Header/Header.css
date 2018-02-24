@@ -1,0 +1,47 @@
+:root {
+  --font-color: #424242;
+  --bbh-color: #3f51b5;
+  --menu-hover-color: #ff572f;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--font-color);
+  padding: 16px 0;
+  font-size: 16px;
+  border-bottom: 3px solid var(--bbh-color);
+  box-sizing: border-box;
+}
+
+.Header__logo {
+  display: flex;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.Header__menu {
+  display: flex;
+  list-style: none;
+}
+
+.Header__menu-item {
+  padding: 0 0 0 16px;
+  text-transform: uppercase;
+}
+
+.Header__menu-link {
+  text-decoration: none;
+  padding-bottom: 22.4px;
+  transition: all 0.25s linear;
+    border-bottom: 3px solid transparent;
+
+}
+
+.Header__menu-link:hover {
+  cursor: pointer;
+  color: var(--menu-hover-color);
+  border-bottom: 3px solid var(--menu-hover-color);
+}

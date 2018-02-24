@@ -1,0 +1,61 @@
+.MovieCard {
+  flex-basis: 30%;
+  justify-content: space-between;
+  padding: 16px 8px;
+  color: #424242;
+  position: relative;
+  box-shadow: 0 0 2px 2px rgba(33, 33, 33, 0.5);
+  border-radius: 2px;
+  margin-bottom: 2%;
+}
+
+.MovieCard__Title {
+  font-size: 24px;
+}
+
+.MovieCard__btn {
+  border-radius: 2px;
+  padding: 4px 8px;
+  color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(33, 33, 33, 0.5);
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.MovieCard__btn:hover{
+  box-shadow: 0 4px 2px 0 rgba(33, 33, 33, .5);
+  background-color: #3f51b5;
+}
+
+.MovieCard__btn_del {
+  font-size: 14px;
+  background: #ff5722;
+}
+
+.MovieCard__Description {
+  font-size: 14px;
+  padding: 8px 0 0 0;
+}
+
+.MovieCard__Raiting {
+  font-size: 16px;
+  padding: 24px 0 24px 0;
+}
+
+.MovieCard__chip-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MovieCard__Category {
+  display: flex;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 2px;
+  background: #3f51b5;
+  padding: 4px 8px;
+  margin-right: 4px;
+}

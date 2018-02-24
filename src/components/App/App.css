@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    font-family: sans-serif;
+}
+
+.Wrapper {
+    width: 90%;
+    min-width: 900px;
+    margin: 0 auto;
+}
