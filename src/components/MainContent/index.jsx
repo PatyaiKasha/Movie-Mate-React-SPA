@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import MovieCard from "../MovieCard/MovieCard";
-import MovieForm from "../MovieForm/MovieForm";
-import "./MainContent.css";
-import "../MovieForm/MovieForm.css";
+import MovieCard from "../MovieCard";
+import MovieForm from "../MovieForm";
+import "./styles.css";
+import "../MovieForm/styles.css";
 
 const MovieContent = props => {
   return (

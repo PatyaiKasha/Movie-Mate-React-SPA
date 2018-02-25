@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./MovieForm.css";
+import "./styles.css";
 
 const Title = props => {
   return (
@@ -43,15 +43,15 @@ const Genres = props => {
   return (
     <label className="MovieForm__lable" htmlFor="">
       <div className="MovieGenre">
-        <label htmlFor="">
+        <label htmlFor="drama">
           <input type="checkbox" name="drama" />
           drama
         </label>
-        <label htmlFor="">
+        <label htmlFor="action">
           <input type="checkbox" name="action" />
           action
         </label>
-        <label htmlFor="">
+        <label htmlFor="comedy">
           <input type="checkbox" name="comedy" />
           comedy
         </label>

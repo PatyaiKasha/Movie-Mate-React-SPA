@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./MovieCard.css";
+import "./styles.css";
 
 const Title = props => {
   return (
