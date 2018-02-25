@@ -29,7 +29,9 @@ const Raiting = props => {
 };
 
 const Category = props => {
-  return <div className="MovieCard__Category">action</div>;
+  this.props = props;
+  // const cat = props.cat;
+  return <div className="MovieCard__Category">{this.props.cat}</div>;
 };
 
 class MovieCard extends Component {
@@ -46,9 +48,9 @@ class MovieCard extends Component {
         <Description />
         <Raiting />
         <div className="MovieCard__chip-list">
-          <Category />
-          <Category />
-          <Category />
+          <Category cat="action" />
+          <Category cat="drama" />
+          <Category cat="comegy" />
         </div>
       </div>
     );
