@@ -14,9 +14,14 @@ const Btn = props => {
 };
 
 const Description = props => {
-  return <div className="MovieCard__Description">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non laudantium eveniet libero, esse aspernatur tempore, expedita deleniti debitis fuga, voluptatum veritatis officia. Soluta quidem, odio quaerat magni nihil laborum minima? Aperiam, nulla ipsa!
-    </div>;
+  return (
+    <div className="MovieCard__Description">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non laudantium
+      eveniet libero, esse aspernatur tempore, expedita deleniti debitis fuga,
+      voluptatum veritatis officia. Soluta quidem, odio quaerat magni nihil
+      laborum minima? Aperiam, nulla ipsa!
+    </div>
+  );
 };
 
 const Raiting = props => {

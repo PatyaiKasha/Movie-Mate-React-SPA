@@ -5,28 +5,48 @@
   padding: 24px 16px;
   margin-left: 2%;
   box-shadow: 0 0 2px 2px rgba(33, 33, 33, 0.5);
-}
-p {
   color: #424242;
+}
+
+.MovieForm__lable {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 18px;
+  margin-bottom: 24px;
 }
 
 .MovieForm__Title,
 .MovieForm__Descr,
 .Raiting {
-  display: block;
-  width: 100%;
-  align-items: stretch;
-  margin: 8px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-top: 4px;
 }
 
-.MovieForm__Title {
-  font-size: 18px;
+.MovieForm__Descr {
+  min-height: 180px;
+  resize: none;
 }
 
-.MovieForm__Title,
-.Raiting {
-  padding: 4px 8px;
-  font-size: 18px;
+.MovieGenre {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+.MovieGenre label {
+  display: flex;
+  align-items: center;
+}
+
+.MovieGenre input {
+  width: 16px;
+  height: 16px;
+  opacity: 0.9;
+  cursor: pointer;
+  margin-right: 4px;
 }
 
 .MovieForm__btn {

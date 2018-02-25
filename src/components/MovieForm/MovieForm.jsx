@@ -3,39 +3,60 @@ import "./MovieForm.css";
 
 const Title = props => {
   return (
-    <div>
-      <p>Title</p>
+    <label className="MovieForm__lable" htmlFor="">
+      Title
       <input className="MovieForm__Title" type="text" />
-    </div>
+    </label>
   );
 };
 
 const Descr = props => {
   return (
-    <div>
-      <p>Description</p>
+    <label className="MovieForm__lable" htmlFor="">
+      Description
       <textarea className="MovieForm__Descr" type="text" />
-    </div>
+    </label>
   );
 };
 
 const Raiting = props => {
   return (
-    <div>
+    <label className="MovieForm__lable" htmlFor="">
       <p>Raiting</p>
       <select className="Raiting" name="raiting">
         <option value="1">1</option>
-        <option value="1">2</option>
-        <option value="1">3</option>
-        <option value="1">4</option>
-        <option value="1">5</option>
-        <option value="1">6</option>
-        <option value="1">7</option>
-        <option value="1">8</option>
-        <option value="1">9</option>
-        <option value="1">10</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
       </select>
-    </div>
+    </label>
+  );
+};
+
+const Genres = props => {
+  return (
+    <label className="MovieForm__lable" htmlFor="">
+      <div className="MovieGenre">
+        <label htmlFor="">
+          <input type="checkbox" name="drama" />
+          drama
+        </label>
+        <label htmlFor="">
+          <input type="checkbox" name="action" />
+          action
+        </label>
+        <label htmlFor="">
+          <input type="checkbox" name="comedy" />
+          comedy
+        </label>
+      </div>
+    </label>
   );
 };
 
@@ -50,6 +71,7 @@ class MovieForm extends Component {
         <Title />
         <Descr />
         <Raiting />
+        <Genres />
         <Btn />
       </div>
     );
