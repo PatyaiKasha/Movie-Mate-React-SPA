@@ -7,7 +7,7 @@ export default [
       "The Imperial Forces -- under orders from cruel Darth Vader (David Prowse) -- hold Princess Leia (Carrie Fisher) hostage, in their efforts to quell the rebellion against the Galactic Empire. Luke Skywalker (Mark Hamill) and Han Solo (Harrison Ford), c...",
     rating: 7,
     genre: ["sci-fi", "drama", "action"]
-  },z
+  },
   {
     id: v4(),
     title: "Jaws",
