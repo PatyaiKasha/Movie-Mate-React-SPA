@@ -67,13 +67,13 @@ const Btn = props => {
 class MovieForm extends Component {
   render() {
     return (
-      <div className="MovieForm">
+      <form className="MovieForm">
         <Title />
         <Descr />
         <Raiting />
         <Genres />
         <Btn />
-      </div>
+      </form>
     );
   }
 }
