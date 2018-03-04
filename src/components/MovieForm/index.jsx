@@ -1,11 +1,12 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
+import Btn from '../Btn';
 import "./styles.css";
 
 const Title = props => {
   return (
     <label className="MovieForm__lable" htmlFor="">
       Title
-      <input className="MovieForm__Title" type="text" />
+      <input className="MovieForm__Title" type="text"/>
     </label>
   );
 };
@@ -14,7 +15,7 @@ const Descr = props => {
   return (
     <label className="MovieForm__lable" htmlFor="">
       Description
-      <textarea className="MovieForm__Descr" type="text" />
+      <textarea className="MovieForm__Descr" type="text"/>
     </label>
   );
 };
@@ -44,15 +45,15 @@ const Genres = props => {
     <label className="MovieForm__lable" htmlFor="">
       <div className="MovieGenre">
         <label htmlFor="drama">
-          <input type="checkbox" name="drama" />
+          <input type="checkbox" name="drama"/>
           drama
         </label>
         <label htmlFor="action">
-          <input type="checkbox" name="action" />
+          <input type="checkbox" name="action"/>
           action
         </label>
         <label htmlFor="comedy">
-          <input type="checkbox" name="comedy" />
+          <input type="checkbox" name="comedy"/>
           comedy
         </label>
       </div>
@@ -60,19 +61,18 @@ const Genres = props => {
   );
 };
 
-const Btn = props => {
-  return <a className="MovieForm__btn MovieForm__btn_submit">Submit</a>;
-};
-
 class MovieForm extends Component {
   render() {
     return (
       <form className="MovieForm">
-        <Title />
-        <Descr />
-        <Raiting />
-        <Genres />
-        <Btn />
+        <Title/>
+        <Descr/>
+        <Raiting/>
+        <Genres/>
+        <Btn
+          type="submit"
+          text="Submit"
+          className="MovieForm__btn MovieForm__btn_submit"/>
       </form>
     );
   }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Header from '../Header';
 import MainContent from '../MainContent';
 import './styles.css';
@@ -8,8 +8,8 @@ class App extends Component {
         return (
             <div className="Container">
                 <div className="Wrapper">
-                    <Header />
-                    <MainContent />
+                    <Header/>
+                    <MainContent/>
                 </div>
             </div>
         );
