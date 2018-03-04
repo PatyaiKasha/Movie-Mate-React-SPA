@@ -1,17 +1,8 @@
 import v4 from "uuid/v4";
+
 export default[
   {
     id : v4(),
-    title : "Star Wars",
-    text : "The Imperial Forces -- under orders from cruel Darth Vader (David Prowse) -- hol" +
-    "d Princess Leia (Carrie Fisher) hostage, in their efforts to quell the rebellion" +
-      " against the Galactic Empire. Luke Skywalker (Mark Hamill) and Han Solo (Harriso" +
-      "n Ford), c...",
-    title : "Star Wars",
-    text : "The Imperial Forces -- under orders from cruel Darth Vader (David Prowse) -- hol" +
-    "d Princess Leia (Carrie Fisher) hostage, in their efforts to quell the rebellion" +
-      " against the Galactic Empire. Luke Skywalker (Mark Hamill) and Han Solo (Harriso" +
-      "n Ford), c...",
     title : "Star Wars",
     text : "The Imperial Forces -- under orders from cruel Darth Vader (David Prowse) -- hol" +
     "d Princess Leia (Carrie Fisher) hostage, in their efforts to quell the rebellion" +
@@ -55,5 +46,14 @@ export default[
       'what crosse...',
     rating : 9,
     genre : ["drama", "thriller"]
+  }, {
+    id : v4(),
+    title : "Star Wars",
+    text : "The Imperial Forces -- under orders from cruel Darth Vader (David Prowse) -- hol" +
+    "d Princess Leia (Carrie Fisher) hostage, in their efforts to quell the rebellion" +
+      " against the Galactic Empire. Luke Skywalker (Mark Hamill) and Han Solo (Harriso" +
+      "n Ford), c...",
+    rating : 7,
+    genre : ["sci-fi", "drama", "action"]
   }
 ];

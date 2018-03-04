@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Header from '../Header';
 import MainContent from '../MainContent';
+import MovieCardsField from "../MovieCardsFields";
+import MovieForm from "../MovieForm";
 import './styles.css';
 
 class App extends Component {
@@ -9,7 +11,10 @@ class App extends Component {
             <div className="Container">
                 <div className="Wrapper">
                     <Header/>
-                    <MainContent/>
+                    <MainContent>
+                        <MovieCardsField/>
+                        <MovieForm/>
+                    </MainContent>
                 </div>
             </div>
         );
