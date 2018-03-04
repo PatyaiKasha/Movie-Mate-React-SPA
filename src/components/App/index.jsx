@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Header from '../Header';
+import HeaderLogo from "../HeaderLogo";
+import HeaderMenu from "../HeaderMenu";
 import MainContent from '../MainContent';
 import MovieCardsField from "../MovieCardsFields";
 import MovieForm from "../MovieForm";
@@ -10,7 +12,10 @@ class App extends Component {
         return (
             <div className="Container">
                 <div className="Wrapper">
-                    <Header/>
+                    <Header>
+                        <HeaderLogo logoName="Movie Mate"/>
+                        <HeaderMenu src="https://google.com"/>
+                    </Header>
                     <MainContent>
                         <MovieCardsField/>
                         <MovieForm/>
