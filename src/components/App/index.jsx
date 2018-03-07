@@ -11,16 +11,16 @@ class App extends Component {
     render() {
         return (
             <div className="Container">
-                <div className="Wrapper">
-                    <Header>
-                        <HeaderLogo logoName="Movie Mate"/>
-                        <HeaderMenu src="https://google.com"/>
-                    </Header>
-                    <MainContent>
-                        <MovieCardsField/>
-                        <MovieForm/>
-                    </MainContent>
-                </div>
+<div className="Wrapper">
+<Header>
+    <HeaderLogo logoName="Movie Mate"/>
+    <HeaderMenu src="https://google.com"/>
+</Header>
+<MainContent>
+    <MovieCardsField/>
+    <MovieForm/>
+</MainContent>
+</div>
             </div>
         );
     }
