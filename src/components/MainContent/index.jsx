@@ -8,8 +8,6 @@ class MainContent extends Component {
   render() {
     return (
       <div className="MainContent">
-        {/* <MovieCardsField/>
-        <MovieForm/> */}
         {this.props.children}
       </div>
     );
