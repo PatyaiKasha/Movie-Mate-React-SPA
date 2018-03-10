@@ -1,72 +1,73 @@
 .MovieForm {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 30%;
-  padding: 24px 16px;
-  margin-left: 2%;
-  box-shadow: 0 0 2px 2px rgba(33, 33, 33, 0.5);
-  color: #424242;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    padding: 24px 16px;
+    margin-left: 2%;
+    box-shadow: 0 0 2px 2px rgba(33, 33, 33, 0.5);
+    color: #424242;
 }
 
 .MovieForm__lable {
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  font-size: 18px;
-  margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-bottom: 24px;
 }
 
 .MovieForm__Title,
 .MovieForm__Descr,
 .Raiting {
-  font-size: 16px;
-  box-sizing: border-box;
-  padding: 8px;
-  margin-top: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-top: 4px;
 }
 
 .MovieForm__Descr {
-  min-height: 180px;
-  resize: none;
+    min-height: 180px;
+    resize: none;
 }
 
 .MovieGenre {
-  display: flex;
-  justify-content: space-around;
-  font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
 }
 
 .MovieGenre label {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .MovieGenre input {
-  width: 16px;
-  height: 16px;
-  opacity: 0.9;
-  cursor: pointer;
-  margin-right: 4px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.9;
+    cursor: pointer;
+    margin-right: 4px;
 }
 
 .MovieForm__btn {
-  display: inline-block;
-  margin: 0 auto;
-  border-radius: 2px;
-  padding: 8px 16px;
-  color: #fff;
-  box-shadow: 0 2px 2px 0 rgba(33, 33, 33, 0.5);
-  cursor: pointer;
-  text-transform: uppercase;
-  font-size: 16px;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: 8px 16px;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(33, 33, 33, 0.5);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
 .MovieForm__btn:hover {
-  box-shadow: 0 4px 2px 0 rgba(33, 33, 33, 0.5);
-  background-color: #ff5722;
+    box-shadow: 0 4px 2px 0 rgba(33, 33, 33, 0.5);
+    background-color: #ff5722;
 }
 
 .MovieForm__btn_submit {
-  font-size: 14px;
-  background: #3f51b5;
+    font-size: 14px;
+    background: #3f51b5;
 }
